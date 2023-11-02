@@ -3,8 +3,15 @@ import NewsList from '../UI/NewsList';
 
 function MainPage(): JSX.Element {
   return (
-    <div style={{ padding: '20px' }}>
-      <h1>News</h1>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        padding: '20px',
+      }}
+    >
+      <h1>Random News</h1>
       <NewsList />
     </div>
   );
